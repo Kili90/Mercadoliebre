@@ -1,0 +1,180 @@
+/*Header*/
+#ml-main-nav {
+    display: none;
+}
+
+#ml-main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#ml-main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#ml-main-nav li {
+    font-weight: normal;
+}
+
+.main-header {
+    padding: 24px;
+}
+
+.main-header-top-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-imput {
+    width: 85%;
+}
+.searchbar input,
+.searchbar button {
+    background-color: white;
+    border: none;
+    height: 30px;
+}
+.searchbar {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.copy-header {
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+}
+
+.burger-menu {
+    text-align: center;
+    font-size: 24px;
+    width: 40px;
+    padding: 6px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.padding-header {
+    padding: 0px 24px;
+}
+
+/*Formulario*/
+.create-form {
+    padding: 20px 15px;
+    display: none;
+}
+.control-formulario {
+    margin-bottom: 15px;
+}
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+.control {
+    width: 100%;
+    padding: 8px;
+    border: grey solid 1px;
+}
+.bottom-formulario {
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/*Formulario clase*/
+
+.form-input {
+    margin-bottom: 23px;
+}
+.form-input .main-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-input input {
+    width: 100%;
+}
+.form-input input[type="checkbox"],
+.form-input input[type="radio"] {
+    width: auto;
+}
+.main-form {
+    padding: 15px;
+}
+.error {
+    color: red;
+    font-size: 10px;
+}
+
+/*Bannes*/
+.banner {
+    width: 100;
+}
+
+/*Main*/
+#main-content {
+    padding: 0 5%;
+}
+
+.product {
+    padding: 15px;
+}
+
+.product-wrapper {
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.product-content {
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+    position: relative;
+}
+
+.product-delibery-icon {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.m-around {
+    margin: 5px;
+}
+
+.text-wrapper {
+    padding-right: 15px;
+    width: 50%;
+}
+
+/*footer*/
+.icon-decoration i {
+    color: #1259c3;
+    font-size: 2em;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.border-box-footer {
+    margin: 0px;
+}
+
+.padding-footer {
+    padding: 0px 40px;
+}

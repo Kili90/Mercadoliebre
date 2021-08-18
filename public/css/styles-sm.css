@@ -1,0 +1,46 @@
+/*TABLET*/
+
+#ml-main-nav li {
+    font-size: 10px;
+}
+
+.main-header {
+    padding: 15px;
+}
+
+.w-33-sm {
+    width: 33.3%;
+}
+
+.fa-search {
+    width: 100%;
+    flex-grow: 1;
+}
+.copy-header {
+    width: 33.3%;
+    margin: 0px;
+    padding: 5px;
+}
+
+#ml-main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+#ml-main-nav ul {
+    display: flex;
+}
+#ml-main-nav li {
+    margin: 0px 5px;
+    font-size: 9px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.product {
+    width: 50%;
+}

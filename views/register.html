@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mercado Liebre -Registro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/utils.css" />
+        <link rel="stylesheet" href="/css/theme.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+
+        <link
+            rel="stylesheet"
+            href="/css/styles-sm.css"
+            media="(min-width:480px)"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/styles-md.css"
+            media="(min-width:768px)"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/styles-lg.css"
+            media="(min-width:1280px)"
+        />
+    </head>
+    <body>
+        <header class="ml-yellow-bg h-padding main-header">
+            <div class="main-header-top-bar">
+                <img class="logo" src="/img/logo-mercado-liebre.svg" alt="" />
+                <div class="search-header">
+                    <input
+                        type="text"
+                        placeholder="Buscar productos, marcas"
+                        class="main-imput"
+                    />
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <p class="copy-header">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    Comprá en cuotas y sin tarjeta de crédito
+                </p>
+            </div>
+            <nav id="ml-main-nav">
+                <ul class="left-navbar">
+                    <li>
+                        <a href="#">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="#">Tiendas Oficiales</a>
+                    </li>
+                    <li>
+                        <a href="#">Vender</a>
+                    </li>
+                    <li>
+                        <a href="#">Ayuda</a>
+                    </li>
+                </ul>
+                <ul class="right-navbar">
+                    <li>
+                        <a href="register.html"
+                            >Creá tu cuenta <i class="far fa-id-card"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="/views/login.html"
+                            >Ingresá <i class="fas fa-sign-in-alt"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            >Mis compras <i class="fas fa-shopping-basket"></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <div class="burger-menu ml-lb-bg">
+                    <i class="fas fa-bars ml-light-text"></i>
+                </div>
+            </div>
+        </header>
+        <!--Formulario-->
+        <main class="main-form ml-light-bg">
+            <h1>Registro</h1>
+            <form action="#">
+                <div class="form-input">
+                    <label for="name" class="main-label"
+                        >Nombre y apellido</label
+                    >
+                    <input type="text" name="name" id="name" />
+                    <p class="error">Este campo es requerido</p>
+                    <!--La ultima linea es para que cuando procesemos los formularios salte el error y lo mostremos-->
+                </div>
+                <div class="form-input">
+                    <label for="user" class="main-label"
+                        >Nombre de Usuario</label
+                    >
+                    <input type="text" name="user" id="user" />
+                    <p class="error">Este campo es requerido</p>
+                </div>
+                <div class="form-input">
+                    <label for="birdthdate" class="main-label"
+                        >Fecha de Nacimiento</label
+                    >
+                    <input type="date" name="birdthdate" id="birdthdate" />
+                    <p class="error">Este campo es requerido</p>
+                </div>
+                <div class="form-input">
+                    <label for="address" class="main-label">Domicilio</label>
+                    <input type="text" name="address" id="address" />
+                    <p class="error">Este campo es requerido</p>
+                </div>
+                <div class="form-input">
+                    <label for="" class="main-label">Perfl de Usuario</label>
+                    <div>
+                        <input
+                            type="radio"
+                            name="user-profil"
+                            id="user-profil-seller"
+                            value="seller"
+                        />
+                        <label for="user-profil-seller">Vendedor</label>
+                        <input
+                            type="radio"
+                            name="user-profil"
+                            id="user-profil-buyer"
+                            value="buyer"
+                        />
+                        <label for="user-profil-buyer">Comprador</label>
+                        <p class="error">Este campo es requerido</p>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="" class="main-label">Intereses</label>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="electro"
+                            id="electro"
+                            value="electro"
+                        />
+                        <label for="electro">Electro</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="moda"
+                            id="moda"
+                            value="moda"
+                        />
+                        <label for="moda">Moda</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="hogar"
+                            id="hogar"
+                            value="hogar"
+                        />
+                        <label for="hogar">Hogar</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="jugueteria"
+                            id="jugueteria"
+                            value="jugueteria"
+                        />
+                        <label for="jugueteria">Juguetería</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="vidaSana"
+                            id="vidaSana"
+                            value="vidaSana"
+                        />
+                        <label for="vidaSana">Vida Sana</label>
+                    </div>
+                    <div class="form-input">
+                        <label for="profil-pic" class="main-label"
+                            >Foto de perfil</label
+                        >
+                        <input
+                            id="profil-pic"
+                            type="file"
+                            name="profil-pic"
+                            accept="image/png, image/jpeg"
+                        />
+                    </div>
+                    <div class="form-input">
+                        <label for="password" class="main-label"
+                            >Contraseña</label
+                        >
+                        <input type="password" id="password" name="password" />
+                        <p class="error">Este campo es requerido</p>
+                    </div>
+                    <div class="form-input">
+                        <label for="rePassword" class="main-label">
+                            Repetir Contraseña</label
+                        >
+                        <input
+                            type="password"
+                            id="rePassword"
+                            name="rePassword"
+                        />
+                        <p class="error">Este campo es requerido</p>
+                    </div>
+                    <div>
+                        <button type="reset">Borrar</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
