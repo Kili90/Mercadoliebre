@@ -93,7 +93,7 @@
 /*Formulario clase*/
 
 .form-input {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
 }
 .form-input .main-label {
     display: block;
@@ -103,12 +103,16 @@
 .form-input input {
     width: 100%;
 }
+
 .form-input input[type="checkbox"],
 .form-input input[type="radio"] {
     width: auto;
 }
 .main-form {
     padding: 15px;
+}
+.main-form h1 {
+    margin-bottom: 15px;
 }
 .error {
     color: red;
@@ -177,4 +181,7 @@
 
 .padding-footer {
     padding: 0px 40px;
+}
+
+.forget-pass {
 }

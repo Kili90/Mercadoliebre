@@ -43,6 +43,14 @@
     transition: opacity ease-in 300ms;
 }
 
+.product-delibery-icon {
+    transition: transform ease-in-out 500ms;
+}
+
+.product-wrapper:hover .product-delibery-icon {
+    transform: rotate(360deg);
+}
+
 .w-33-md {
     width: 33.3%;
     padding: 10px;
