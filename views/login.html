@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mercado Liebre - Igresá a tu cuenta</title>
+        <title>Mercado Liebre -Registro</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -35,7 +35,97 @@
             media="(min-width:1280px)"
         />
     </head>
-    <body>
-        <p>Funca</p>
+    <body class="ml-light-bg">
+        <header class="ml-yellow-bg h-padding main-header">
+            <div class="main-header-top-bar">
+                <img
+                    class="w-50 w-33-sm"
+                    src="/img/logo-mercado-liebre.svg"
+                    alt=""
+                />
+                <div class="padding-8 w-50 w-33-sm">
+                    <form class="flex no-wrap searchbar w-100">
+                        <input
+                            type="text"
+                            placeholder="Buscar productos, marcas"
+                            class="w-100"
+                        />
+                        <button>
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <p class="text-center w-100 w-33-sm margin-10">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    Comprá en cuotas y sin tarjeta de crédito
+                </p>
+            </div>
+            <nav id="ml-main-nav">
+                <ul class="left-navbar">
+                    <li>
+                        <a href="#">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="#">Tiendas Oficiales</a>
+                    </li>
+                    <li>
+                        <a href="#">Vender</a>
+                    </li>
+                    <li>
+                        <a href="#">Ayuda</a>
+                    </li>
+                </ul>
+                <ul class="right-navbar">
+                    <li>
+                        <a href="/register"
+                            >Creá tu cuenta <i class="far fa-id-card"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="/login"
+                            >Ingresá <i class="fas fa-sign-in-alt"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            >Mis compras <i class="fas fa-shopping-basket"></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <div class="burger-menu ml-lb-bg">
+                    <i class="fas fa-bars ml-light-text"></i>
+                </div>
+            </div>
+        </header>
+        <!--Formulario-->
+        <main class="main-form ml-light-bg">
+            <h1>Ingresá a tu cuenta</h1>
+            <form action="/" method="GET">
+                <div class="form-input">
+                    <label for="name" class="main-label"
+                        >Nombre de Usuario</label
+                    >
+                    <input type="text" name="name" id="name" />
+                    <p class="error">Este campo es requerido</p>
+                    <!--La ultima linea es para que cuando procesemos los formularios salte el error y lo mostremos-->
+                </div>
+                <div class="form-input">
+                    <label for="password" class="main-label"
+                        >Nombre de Usuario</label
+                    >
+                    <input type="password" name="password" id="password" />
+                    <p class="error">Este campo es requerido</p>
+                    <!--La ultima linea es para que cuando procesemos los formularios salte el error y lo mostremos-->
+                </div>
+                <div class="form-input">
+                    <a href="/" class="ml-lb-text">¿Olvidaste tu contraseña?</a>
+                </div>
+                <div>
+                    <button type="submit">Ingresar</button>
+                </div>
+            </form>
+        </main>
     </body>
 </html>

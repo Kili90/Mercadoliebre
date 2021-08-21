@@ -35,21 +35,27 @@
             media="(min-width:1280px)"
         />
     </head>
-    <body>
+    <body class="ml-light-bg">
         <header class="ml-yellow-bg h-padding main-header">
             <div class="main-header-top-bar">
-                <img class="logo" src="/img/logo-mercado-liebre.svg" alt="" />
-                <div class="search-header">
-                    <input
-                        type="text"
-                        placeholder="Buscar productos, marcas"
-                        class="main-imput"
-                    />
-                    <button>
-                        <i class="fa fa-search"></i>
-                    </button>
+                <img
+                    class="w-50 w-33-sm"
+                    src="/img/logo-mercado-liebre.svg"
+                    alt=""
+                />
+                <div class="padding-8 w-50 w-33-sm">
+                    <form class="flex no-wrap searchbar w-100">
+                        <input
+                            type="text"
+                            placeholder="Buscar productos, marcas"
+                            class="w-100"
+                        />
+                        <button>
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
                 </div>
-                <p class="copy-header">
+                <p class="text-center w-100 w-33-sm margin-10">
                     <i class="fas fa-hand-holding-usd"></i>
                     Comprá en cuotas y sin tarjeta de crédito
                 </p>
@@ -71,12 +77,12 @@
                 </ul>
                 <ul class="right-navbar">
                     <li>
-                        <a href="register.html"
+                        <a href="/register"
                             >Creá tu cuenta <i class="far fa-id-card"></i
                         ></a>
                     </li>
                     <li>
-                        <a href="/views/login.html"
+                        <a href="/login"
                             >Ingresá <i class="fas fa-sign-in-alt"></i
                         ></a>
                     </li>
@@ -96,7 +102,7 @@
         <!--Formulario-->
         <main class="main-form ml-light-bg">
             <h1>Registro</h1>
-            <form action="#">
+            <form action="/" method="GET">
                 <div class="form-input">
                     <label for="name" class="main-label"
                         >Nombre y apellido</label
@@ -165,12 +171,8 @@
                         <label for="moda">Moda</label>
                     </div>
                     <div>
-                        <input
-                            type="checkbox"
-                            name="hogar"
-                            id="hogar"
-                            value="hogar"
-                        />
+                        <input: type="checkbox" name="hogar" id="hogar"
+                        value="hogar"/>
                         <label for="hogar">Hogar</label>
                     </div>
                     <div>
