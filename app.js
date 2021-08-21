@@ -19,6 +19,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "views/index.html"));
 });
 
+app.post("/", (req, res) => {
+    res.send("Su usuario se generó con éxito!");
+});
+
 app.get("/register", (req, res) => {
     res.sendFile(path.join(__dirname, "views/register.html"));
 });
